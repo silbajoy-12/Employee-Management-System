@@ -1,0 +1,4 @@
+ node_modules/
+ data/employees.json
+ data/users.json
+ .env
