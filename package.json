@@ -1,0 +1,14 @@
+{
+  "name": "employee-management-system",
+  "version": "1.0.0",
+  "description": "Task 2 - Employee Management System (CRUD + Auth) for Prodigy InfoTech Internship",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "bcryptjs": "^2.4.3"
+  }
+}

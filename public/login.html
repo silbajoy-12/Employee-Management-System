@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Login · Employee Management System</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="login-wrap">
+    <div class="login-card">
+      <div class="brand">EMPLOYEE MANAGEMENT SYSTEM</div>
+      <h1>Admin sign in</h1>
+
+      <div class="error-box" id="errorBox"></div>
+
+      <form id="loginForm">
+        <div class="field">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" autocomplete="username" required />
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" autocomplete="current-password" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+
+      <div class="hint">Default credentials — username: <strong>admin</strong>, password: <strong>admin123</strong></div>
+    </div>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>

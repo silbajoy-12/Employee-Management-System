@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2,
+    "name": "Divya Sree",
+    "email": "divya.sree@example.com",
+    "phone": "9876501234",
+    "department": "Human Resources",
+    "position": "HR Executive",
+    "salary": 35000,
+    "joiningDate": "2022-11-12"
+  },
+  {
+    "id": 3,
+    "name": "Priya Ramesh",
+    "email": "priya.ramesh@example.com",
+    "phone": "9123456789",
+    "department": "Marketing",
+    "position": "Marketing Executive",
+    "salary": 32000,
+    "joiningDate": "2024-03-01"
+  }
+]
